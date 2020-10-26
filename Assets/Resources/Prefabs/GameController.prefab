@@ -1,0 +1,63 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1753203273095708616
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1753203273095708614}
+  - component: {fileID: 1753203273095708615}
+  m_Layer: 0
+  m_Name: GameController
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1753203273095708614
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1753203273095708616}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 6.2966824, y: -2.4199376, z: -4.898292}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1753203273095708615
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1753203273095708616}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e3b75b53d243274f893968a7c57b55d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  inventory: []
+  knight: {fileID: 0}
+  dragonHitScore: 10
+  dragonKillScore: 50
+  audioManager:
+    sounds:
+    - {fileID: 8300000, guid: fe0b1f9aeb45b41b089175aeeabd5d95, type: 3}
+    - {fileID: 8300000, guid: d46323e22e74e46baa241cbf48c85671, type: 3}
+    - {fileID: 8300000, guid: 79180f511d89441b9aa23ccae1992fe0, type: 3}
+    defaultClip: {fileID: 8300000, guid: 32d4b1811dda14a6cb9e059ee8ad17d2, type: 3}
+    menuMusic: {fileID: 8300000, guid: 753870b8b63f73d4896526bb308204c6, type: 3}
+    gameMusic: {fileID: 8300000, guid: 0b25711c4baf3de43a64f05b4a6ce01d, type: 3}
+  hero:
+    maxHealth: 100
+    damage: 20
+    speed: 5
+    experience: 0
+  dragonKillExperience: 0
